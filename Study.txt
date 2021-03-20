@@ -1,0 +1,11 @@
+HTML-> Hiper Text Marckup Language;
+Comentários-> <!-- -->, marcação de comentários no HTML;
+No VSCode, ao se digitar apenas o interior da tag é possível evitar a digitação dos "<>", tanto a de abertura quanto a de fechamento("</>");
+Existem também elementos vazios, os quais não precisão ser fechados, tal qual <p>, ou <img>;
+Atributos dão valores a um elemento, tal como "disabled" e aspas duplas são mais comuns no desenvolvimento;
+Atributos globais são utilizados não apenas em um elemento, mas sim em todo o documento HTML;
+No atributo "Data", sempre utilizar o "-" para separar os elementos de descrição dele;
+O atributo "ID" é mais usado alterando os seus nomes, ex: Id="nome1", Id="nome2";
+O "Tabindex" faz com que a navegação da página com o teclado seja definida em uma ordem enumerada, ex: Tabindex="1", Tabindex="2";
+O "Title" dá a função de mostrar uma tag ao se deixar o mouse em cima por um mínimo período de tempo;
+"Developermozzila.org"- Site da Mozzila para encontrar recursos sobre HTML;
