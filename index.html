@@ -1,52 +1,64 @@
 <p>Comida<em> é </em>bom.</p><!-- "em"é uma tag para deixar palavras em itálico-->
 <p>Quebra de linha <br> dentro de linha.</p><!-- "br" é uma tag para realizar quebra de linha dentro de parágrafo-->
-<p><strong>Saiba mais clicando </strong><em><a href="link">aqui</a>.</em></p><!-- "strong" é uma tag que torna as palavras contidas dentro dela em negrito-->
+<p><strong>Saiba mais clicando </strong><em><a href="link">aqui</a>.</em></p>
+<!-- "strong" é uma tag que torna as palavras contidas dentro dela em negrito-->
 <p>&nbsp;&nbsp;&nbsp;Olá</p><!-- "&nbsp" é um atributo para criar um espaço utilizado na margem-->
-<h1>Olá(h1)</h1><!-- "h1" é um marcador de página, utilizado em títulos e subtítulos, pode ser usado também como separador de seções da página-->
+<h1>Olá(h1)</h1>
+<!-- "h1" é um marcador de página, utilizado em títulos e subtítulos, pode ser usado também como separador de seções da página-->
 <h2>Olá(h2)</h2><!-- O mesmo do h1, porém com tamanho reduzido, isto vai até "h6"-->
 <h6>Olá(h6)</h6><!-- O menor dentre os "h"-->
 <p>Tag("p")</p><!-- "p" é uma tag que quebra parágrafos dentro de um arquivo-->
-<h1>Lista de compras:</h1><!--Criação de lista com hierarquia e "li", elemento de criação de listas-->
+<h1>Lista de compras:</h1>
+<!--Criação de lista com hierarquia e "li", elemento de criação de listas-->
 <h2>Frutas:</h2>
 <li>Banana;</li>
 <li>Maçã;</li>
 <h2>Doces:</h2>
 <li>Snickers</li>
-<li>Fini</li><!--Ao se adicionar "li*(número de repetições do li)" serão criados o número desejado de elementos a serem listados-->
+<li>Fini</li>
+<!--Ao se adicionar "li*(número de repetições do li)" serão criados o número desejado de elementos a serem listados-->
 <p>-------------------------------------------------------------</p>
 <h1>Lista de compras:</h1>
 <h2>Frutas:</h2>
 <ol>
-<li>Banana;</li>
-<li>Maçã;</li>
-<h2>Doces:</h2>
-<li>Snickers</li>
-<li>Fini</li>
-</ol><!--Cria uma série enumerada de elemnetos de lista ordenada-->
+    <li>Banana;</li>
+    <li>Maçã;</li>
+    <h2>Doces:</h2>
+    <li>Snickers</li>
+    <li>Fini</li>
+</ol>
+<!--Cria uma série enumerada de elemnetos de lista ordenada-->
 <p>-------------------------------------------------------------</p>
 <h1>Lista de compras:</h1>
 <h2>Frutas:</h2>
 <ul>
-<li>Banana;</li>
-<li>Maçã;</li>
-<h2>Doces:</h2>
-<li>Snickers</li>
-<li>Fini</li>
-</ul><!--Cria uma lista desordenada-->
+    <li>Banana;</li>
+    <li>Maçã;</li>
+    <h2>Doces:</h2>
+    <li>Snickers</li>
+    <li>Fini</li>
+</ul>
+<!--Cria uma lista desordenada-->
 <p>-------------------------------------------------------------</p>
-<blockquote cite="https://youtube.com"><cite>Bom<cite> dia jovens amigos</blockquote><!--"blockquote" é uma tag para se fazer marcação dum texto como citação externa-->
+<blockquote cite="https://youtube.com"><cite>Bom<cite> dia jovens amigos</blockquote>
+<!--"blockquote" é uma tag para se fazer marcação dum texto como citação externa-->
 <p>-------------------------------------------------------------</p>
-<p>O<abbr title="Gay"> Davi </abbr>não sabe usar HTML.</p><!--"abbr" permite com que se coloque uma legenda em um determinado texto-->
+<p>O<abbr title="Gay"> Davi </abbr>não sabe usar HTML.</p>
+<!--"abbr" permite com que se coloque uma legenda em um determinado texto-->
 <p>-------------------------------------------------------------</p>
-<address><!--"Address"é uma tag que define um detalhe de contato a um HTML-->
+<address>
+    <!--"Address"é uma tag que define um detalhe de contato a um HTML-->
     <p>Guilherme Tâmega</p>
     <strong>Campo Grande, RJ</strong>
 </address>
 <p>-------------------------------------------------------------</p>
 <h3>Glossário</h3>
-<dl><!--"dl" define uma lista de descrição, algo similar a uma lista paragrafada-->
-    <dt>Comida</dt><!--"dt"cria um elemento primário na lista-->
-    <dd>Comidas</dd><!--"dd"cria um elemento secundário da lista, podendo conter mais de 1 "dd" em cada "dt"-->
+<dl>
+    <!--"dl" define uma lista de descrição, algo similar a uma lista paragrafada-->
+    <dt>Comida</dt>
+    <!--"dt"cria um elemento primário na lista-->
+    <dd>Comidas</dd>
+    <!--"dd"cria um elemento secundário da lista, podendo conter mais de 1 "dd" em cada "dt"-->
     <dt>Olho</dt>
     <dd>Olhos</dd>
 </dl>
@@ -58,4 +70,148 @@
     </code>
 </pre>
 <p>-------------------------------------------------------------</p>
-
+<a href="https://google.com">Aqui</a>
+<!--Hiperlinks, a tag "a" que é um elemento de âncora. O "href" é a referência de pra onde se vai ao se clicar no link da tag "a";-->
+<p>
+    <a href="https://google.com" target="_blank">Nova guia</a>
+    <!-- O "target" por padrão está definido como "_self", ou seja, ao clicar no link a página alterada será a que se está, já ao adicionar o "_blank", o navegador irá abrir uma nova guia com o link selecionado-->
+</p>
+<p>-------------------------------------------------------------</p>
+<div>
+    <p><strong>Saiba mais:</strong></p>
+    <ul>
+        <li><a href="https://google.com" target="_blank">Google</a></li>
+        <!-- Leva ao google em uma nova guia-->
+        <li>
+            <p><a href="tel:+552198624011">Telefone</a></p>
+        </li>
+        <!-- Ao se clicar no link o aplicativo padrão de ligação será acionado com o número dentro contido-->
+        <li>
+            <p><a href="mailto:meguiluz24@gmail.com">Email</a></p>
+        </li>
+        <!-- Ao clicar no link o aplicativo padrão de email será aberto e o email para o qual a mensagem será enviada está contido dentro do "href"-->
+    </ul>
+</div>
+<p>-------------------------------------------------------------</p>
+<div>
+    <p><strong>Saiba mais:</strong></p>
+    <ul>
+        <li><a href="#about">Sobre mim</a></li>
+        <li><a href="#history">História</a></li>
+        <li><a href="#works">Trabalhos</a></li>
+    </ul>
+    <h1 id="about">Sobre mim:</h1>
+    <h2 id="history">História:</h2>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione atque quia, delectus cumque nesciunt laudantium
+    rerum magnam at numquam illo minima, dolore deleniti, sequi harum aspernatur recusandae animi eveniet voluptatem.
+    <h2 id="works">Trabalhos:</h2>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque modi et dignissimos, quibusdam dolor, eum illum quis
+    nostrum est laborum dolore, consequuntur quaerat amet aspernatur molestiae minus provident? Cumque, saepe?
+</div>
+<!-- Utilizando em "href" um atributo com "#" na frente, definimos um "id" para aquele conteúdo, e ao se fazer isso, quando se clica no link será reposicionado para a parte onde se adicionou o id, podendo ser qualquer elemento contendo aquele id, isto se chama navegação de fragmento-->
+<p>-------------------------------------------------------------</p>
+<p><a href="https://google.com" title="Ir para o Google">
+        <h1>Google</h1>Alo<p>Olá</p><img src="https://source.unsplash.com/random" alt="">
+    </a></p>
+<!-- Todo o conteúdo dentro da tag "a" será colocada como um link, até mesmo imagens-->
+<p>-------------------------------------------------------------</p>
+<a href="./se.html" target="_blank">Outra página</a>
+<!-- Pode-se ir para outra página local ao se usar o "href" para navegar entre os arquivos internos de uma pasta-->
+<p>-------------------------------------------------------------</p>
+<a href="outros/sec.html" target="_blank">Outra página em outra pasta</a>
+<!-- Para se alterar de pasta se escreve "nome da pasta/nome do arquivo"-->
+<!-- Já para se retornar daquela pasta pode-se utilizar "../nome do arquivo"-->
+<p>-------------------------------------------------------------</p>
+<p><a href="https://google.com" title="Ir para o Google">Absoluto: Ir para o Google</a></p>
+<p><a href="google.com" title="Ir para o Google">Relativo: Ir para o Google</a></p>
+<!-- Um URL relativo é um link local para o qual se vai ser enviado, já um absoluto é um domínio web com protocolo-->
+<p>-------------------------------------------------------------</p>
+<table>
+    <!-- "table" é um elemento de organização como uma tabela similar à do excel-->
+    <caption>Pessoas por Idade</caption>
+    <!-- "caption" define o que a tabela está fazendo, algo como o título da tabela-->
+    <thead>
+        <!-- "thead" é um agrupamento do cabeçalho de uma tabela, um elemento de organização similar ao "head"-->
+        <tr>
+            <!-- "tr" se refere à uma linha dentro desta tabela-->
+            <th>Nome</th>
+            <th>Idade</th>
+            <!-- "th" se refere ao cabeçalho da tabela-->
+        </tr>
+    </thead>
+    <tbody>
+        <!-- "tbody" é um agrupamento do corpo de uma tabela, um elemento de organização similar ao "body"-->
+        <tr>
+            <td>Guilherme</td>
+            <td>17</td>
+            <!-- "td" são células de dados e os textos contidos dentro são alinhados à esquerda por padrão, diferente do "th", que alinha no centro-->
+        </tr>
+        <tr>
+            <td>Pietra</td>
+            <td>18</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <!-- "tfoot" é um agrupamento do rodapé de uma tabela-->
+        <tr>
+            <td>Total de pessoas:</td>
+            <td>2</td>
+        </tr>
+    </tfoot>
+</table>
+<p>-------------------------------------------------------------</p>
+<table>
+    <caption>Produzidos X Vendidos por Loja</caption>
+    <colgroup>
+        <!--"colgroup" é um elemento de edição visual para a tabela-->
+        <col>
+        <col span="2" style="background-color:red">
+        <col span="2" style="background-color:blue">
+    </colgroup>
+    <thead>
+        <tr>
+            <th rowspan="2"></th>
+            <!--"rowspan" faz com que aquele "th" ou "td" ocupem mais linhas-->
+            <th colspan="2" scope="colgroup">Loja 1</th>
+            <th colspan="2" scope="colgroup">Loja 2</th>
+            <!--"colspan" faz com que aquele "th" ou "td" ocupem mais colunas-->
+        </tr>
+        <tr>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Vassoura</th>
+            <td>50</td>
+            <td>30</td>
+            <td>20</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <th scope="row">Pás</th>
+            <td>40</td>
+            <td>10</td>
+            <td>50</td>
+            <td>50</td>
+        </tr>
+    </tbody>
+</table>
+<p>-------------------------------------------------------------</p>
+<head>
+    <meta charset="UTF-8">
+    <!--"meta" é uma tag especial que define metadados do site, fazendo com que possam ser importados padrões de configurações-->
+    <!-- "charset" define uma codificação de caracteres especiais dentro de um site-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--"viewport" é um adaptador da página para cada escala de tela de dispositivo-->
+    <title>Document</title>
+</head>
+<p>-------------------------------------------------------------</p>
+<a href="se.html">Exemplo de página com FavIcon</a>
+<!--<link rel="shortcut icon" href="favicon.ico">-->
+<!-- Acima demonstro como adicionar um "favicon", o ícone que aparece ao lado do nome do site na aba, esta tag deve estar contida dentro do cabeçalho do arquivo, o "head"-->
+<p>-------------------------------------------------------------</p>
+<h1><strong> FIM DO ESTUDO DE HTML</strong></h1>
